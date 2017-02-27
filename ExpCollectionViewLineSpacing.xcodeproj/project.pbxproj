@@ -12,16 +12,18 @@
 		3427AB781E64428000BB6E9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3427AB761E64428000BB6E9B /* Main.storyboard */; };
 		3427AB7A1E64428000BB6E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3427AB791E64428000BB6E9B /* Assets.xcassets */; };
 		3427AB7D1E64428000BB6E9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3427AB7B1E64428000BB6E9B /* LaunchScreen.storyboard */; };
+		34A783271E647E0500D4DEB3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A783261E647E0500D4DEB3 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3427AB6F1E64428000BB6E9B /* ExpCollectionViewLineInterimSpacing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpCollectionViewLineInterimSpacing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3427AB6F1E64428000BB6E9B /* ExpCollectionViewLineSpacing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpCollectionViewLineSpacing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3427AB721E64428000BB6E9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3427AB741E64428000BB6E9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3427AB771E64428000BB6E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3427AB791E64428000BB6E9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3427AB7C1E64428000BB6E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3427AB7E1E64428000BB6E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A783261E647E0500D4DEB3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,7 @@
 		3427AB661E64428000BB6E9B = {
 			isa = PBXGroup;
 			children = (
-				3427AB711E64428000BB6E9B /* ExpCollectionViewLineInterimSpacing */,
+				3427AB711E64428000BB6E9B /* ExpCollectionViewLineSpacing */,
 				3427AB701E64428000BB6E9B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +48,31 @@
 		3427AB701E64428000BB6E9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3427AB6F1E64428000BB6E9B /* ExpCollectionViewLineInterimSpacing.app */,
+				3427AB6F1E64428000BB6E9B /* ExpCollectionViewLineSpacing.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3427AB711E64428000BB6E9B /* ExpCollectionViewLineInterimSpacing */ = {
+		3427AB711E64428000BB6E9B /* ExpCollectionViewLineSpacing */ = {
 			isa = PBXGroup;
 			children = (
 				3427AB721E64428000BB6E9B /* AppDelegate.swift */,
 				3427AB741E64428000BB6E9B /* ViewController.swift */,
+				34A783261E647E0500D4DEB3 /* CollectionViewCell.swift */,
 				3427AB761E64428000BB6E9B /* Main.storyboard */,
 				3427AB791E64428000BB6E9B /* Assets.xcassets */,
 				3427AB7B1E64428000BB6E9B /* LaunchScreen.storyboard */,
 				3427AB7E1E64428000BB6E9B /* Info.plist */,
 			);
-			path = ExpCollectionViewLineInterimSpacing;
+			path = ExpCollectionViewLineSpacing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3427AB6E1E64428000BB6E9B /* ExpCollectionViewLineInterimSpacing */ = {
+		3427AB6E1E64428000BB6E9B /* ExpCollectionViewLineSpacing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3427AB811E64428000BB6E9B /* Build configuration list for PBXNativeTarget "ExpCollectionViewLineInterimSpacing" */;
+			buildConfigurationList = 3427AB811E64428000BB6E9B /* Build configuration list for PBXNativeTarget "ExpCollectionViewLineSpacing" */;
 			buildPhases = (
 				3427AB6B1E64428000BB6E9B /* Sources */,
 				3427AB6C1E64428000BB6E9B /* Frameworks */,
@@ -79,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = ExpCollectionViewLineInterimSpacing;
+			name = ExpCollectionViewLineSpacing;
 			productName = ExpCollectionViewLineInterimSpacing;
-			productReference = 3427AB6F1E64428000BB6E9B /* ExpCollectionViewLineInterimSpacing.app */;
+			productReference = 3427AB6F1E64428000BB6E9B /* ExpCollectionViewLineSpacing.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,12 +99,11 @@
 				TargetAttributes = {
 					3427AB6E1E64428000BB6E9B = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 7DDML468R3;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 3427AB6A1E64428000BB6E9B /* Build configuration list for PBXProject "ExpCollectionViewLineInterimSpacing" */;
+			buildConfigurationList = 3427AB6A1E64428000BB6E9B /* Build configuration list for PBXProject "ExpCollectionViewLineSpacing" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3427AB6E1E64428000BB6E9B /* ExpCollectionViewLineInterimSpacing */,
+				3427AB6E1E64428000BB6E9B /* ExpCollectionViewLineSpacing */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +141,7 @@
 			files = (
 				3427AB751E64428000BB6E9B /* ViewController.swift in Sources */,
 				3427AB731E64428000BB6E9B /* AppDelegate.swift in Sources */,
+				34A783271E647E0500D4DEB3 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +207,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -248,7 +251,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -261,10 +264,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7DDML468R3;
-				INFOPLIST_FILE = ExpCollectionViewLineInterimSpacing/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ExpCollectionViewLineSpacing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = KW.ExpCollectionViewLineInterimSpacing;
+				PRODUCT_BUNDLE_IDENTIFIER = ExpCollectionViewLineSpacing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,10 +277,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7DDML468R3;
-				INFOPLIST_FILE = ExpCollectionViewLineInterimSpacing/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ExpCollectionViewLineSpacing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = KW.ExpCollectionViewLineInterimSpacing;
+				PRODUCT_BUNDLE_IDENTIFIER = ExpCollectionViewLineSpacing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -286,7 +289,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3427AB6A1E64428000BB6E9B /* Build configuration list for PBXProject "ExpCollectionViewLineInterimSpacing" */ = {
+		3427AB6A1E64428000BB6E9B /* Build configuration list for PBXProject "ExpCollectionViewLineSpacing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3427AB7F1E64428000BB6E9B /* Debug */,
@@ -295,13 +298,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3427AB811E64428000BB6E9B /* Build configuration list for PBXNativeTarget "ExpCollectionViewLineInterimSpacing" */ = {
+		3427AB811E64428000BB6E9B /* Build configuration list for PBXNativeTarget "ExpCollectionViewLineSpacing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3427AB821E64428000BB6E9B /* Debug */,
 				3427AB831E64428000BB6E9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
